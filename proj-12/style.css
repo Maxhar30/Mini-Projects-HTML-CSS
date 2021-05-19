@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: lavender;
+}
+form{
+    background-color:grey;
+    width: 35%;
+    position: relative;
+    left: 30%;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    padding: 8px;
+    background-color: white;
+    margin: 5px 12px;
+    border: none;
+    outline: none;
+    width: 70%;
+    display: block;
+}
+
+input[type=submit]{
+    padding: 4px; 
+    margin: 5px 12px 24px 12px;
+   
+    
+}
+
+label{
+    margin: 12px 12px;
+    color: #3c3c3c;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    padding: 24px;
+}
