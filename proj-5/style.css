@@ -1,0 +1,30 @@
+ul{
+    background-color: gold;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 18px;
+}
+
+li a.active {
+    background-color: goldenrod;
+    color:white;
+    border-radius: 50%;
+}
+
+li a:hover:not(a.active){
+    background-color: whitesmoke;
+    color: yellowgreen;
+}
