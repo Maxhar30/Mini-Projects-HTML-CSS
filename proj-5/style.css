@@ -1,9 +1,15 @@
+*{
+    margin: 0;
+}
+
 ul{
     background-color: gold;
-    padding: 0;
+    padding: 10px;
     margin: 0;
-    overflow: hidden;
+    position: fixed;            /* If we set overflow:hidden and delete width and margin in line #11 & 12. Then navbar is not set in full page. */
     list-style-type: none;
+    width: 100%;
+    left: 0;
 }
 
 li{
